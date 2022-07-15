@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html>
+  <Head>
+    <Title>Facebook Clone</Title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, 
+    intial-scale=1">
+    <link rel="stylesheet" href="css/font5/all.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </Head>
+  <body>
+    <header class="header">
+      <div class="header__logo-section">
+        <div class="header__logo-icon">
+          <i class="fab fa-facebook">
+          </i>
+        </div>
+        <div class="header__logo-search">
+          <i class="fas fa-search"></i>
+          <input type="text">
+        </div>
+        <div class="header__mobile-button">
+          <i class="fas fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="header__menu-tabs">
+        <div class="header__menu-tab header__menu-tab--active">
+          <i class="fas fa-home"></i>
+        </div>
+
+        <div class="header__menu-tab ">
+          <i class="fas fa-flag">
+            <div class="header__notification-bubble">
+              3
+            </div>
+          </i>
+        </div>
+        <div class="header__menu-tab ">
+          <i class="fas fa-tv">
+            <div class="header__notification-bubble">
+              9
+            </div>
+          </i>
+        </div>
+
+        <div class="header__menu-tab ">
+          <i class="fas fa-store"></i>
+        </div>
+        <div class="header__menu-tab ">
+          <i class="fas fa-users"></i>
+        </div>
+      </div>
+      <div class="header__account">
+        
+      </div>
+      <div class="header__actions">
+        <img src="https://scontent-frt3-2.xx.fbcdn.net/v/t1.18169-9/10580225_953421034685254_6083809100079690020_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=eX2ULXHrWtYAX8APwg9&_nc_ht=scontent-frt3-2.xx&oh=00_AT_16L6leHTsQ6ecAEB9lWHNeUYBq4JObmd9Tul20XjpKA&oe=62F0B147" class="header__user-img">
+        <span class="header__user-name">Dre</span>
+        <a href="#" class="header__circle-link">
+          <i class="header__link-icon fas fa-plus"></i>
+        </a>
+        <a href="#" class="header__circle-link">
+          <i class="header__link-icon fab fa-facebook-messenger">
+            <div class="header__link-bubble">
+              3
+            </div>
+          </i>
+        </a>
+        <a href="#" class="header__circle-link">
+          <i class="header__link-icon fas fa-bell">
+            <div class="header__link-bubble">
+              3
+            </div>
+          </i>
+        </a>
+        <a href="#" class="header__circle-link">
+          <i class="header__link-icon fas fa-sort-down"></i>
+        </a>
+
+      </div>
+    </header>
+    <!-- the "--" is the modifier -->
+    <section class="content-area content-area--feed">
+      <section class="sidenav">
+        <!-- the items are the Friends, Pages, Groups, etc. -->
+        <div class="sidenav__item">
+          <img src="https://scontent-frt3-2.xx.fbcdn.net/v/t1.18169-9/10580225_953421034685254_6083809100079690020_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=eX2ULXHrWtYAX8APwg9&_nc_ht=scontent-frt3-2.xx&oh=00_AT_16L6leHTsQ6ecAEB9lWHNeUYBq4JObmd9Tul20XjpKA&oe=62F0B147" class="sidenav__item-img">
+          <span class="sidenav__item-title">
+            Dre
+          </span>
+        </div>
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon">
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <span class="sidenav__item-title">
+            Friends
+          </span>
+        </div>
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon">
+            <i class="fas fa-flag"></i>
+          </div>
+          <span class="sidenav__item-title">
+            <!-- the one below is how to do the little blue notifications. -->
+            Pages
+            <span class="sidenav__item-notification">
+              <div class="sidenav__item-notification-circle">
+              </div>9+ new
+            </span>
+          </span>
+        </div>
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon sidenav_item-icon-white">
+            <i class="fas fa-users"></i>
+          </div>
+          <span class="sidenav__item-title">
+            Groups
+            <span class="sidenav__item-notification">
+              <div class="sidenav__item-notification-circle">
+              </div>4+ new
+            </span>
+          </span>
+        </div>
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon">
+            <i class="fas fa-store"></i>
+          </div>
+          <span class="sidenav__item-title">
+            Marketplace
+          </span>
+        </div>
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon sidenav__item-icon--circle">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <span class="sidenav__item-title">
+            See more
+          </span>
+        </div>
+        <!-- This is making the line under the items -->
+        <div class="sidenav__line"></div>
+        <!-- This is the title above the items -->
+        <span class="sidenav__heading-title">
+          Your Shortcuts
+        </span>
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <span class="sidenav__item-title">
+            Chrysler 300 
+          </span>
+        </div>
+
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <span class="sidenav__item-title">
+            Sports Cars
+          </span>
+        </div>
+
+        <div class="sidenav__item">
+          <img src="https://img.favpng.com/4/10/11/web-development-web-design-software-development-web-developer-png-favpng-4XDAuswj6bw2EKSbbYfuyB65m.jpg" class="sidenav__item-img">
+          <span class="sidenav__item-title">
+           Web Developers
+          </span>
+        </div>
+
+        <div class="sidenav__item">
+          <img src="https://m.media-amazon.com/images/I/51FdNBzNwzL.jpg" class="sidenav__item-img">
+          <span class="sidenav__item-title">
+           Pranks
+          </span>
+        </div>
+
+        <div class="sidenav__item">
+          <img src="https://pbs.twimg.com/profile_images/1156986672501932032/PcW6jlsL_400x400.jpg" class="sidenav__item-img">
+          <span class="sidenav__item-title">
+           CodingPhase.com
+          </span>
+        </div>
+
+        <div class="sidenav__item">
+          <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/ferrari_f8_tributo.jpg?itok=1TG8_Tnx" class="sidenav__item-img">
+          <span class="sidenav__item-title">
+           TikTok
+          </span>
+        </div>
+
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon sidenav__item-icon--circle">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <span class="sidenav__item-title">
+            See more
+          </span>
+        </div>
+
+      </section>
+      <section class="feed">
+        <div class="stories">
+          <div class="stories__video-container">
+            <img class="stories__bg" src="https://i.ytimg.com/vi/waU75jdUnYw/maxresdefault.jpg">
+            <div class="stories__title">
+              <div class="stories__new-btn">
+                <i class="fas fa-plus"></i>
+              </div>
+              Create a Story
+            </div>
+          </div>
+          <div class="stories__video-container stories__video-container--plain">
+            <img class="stories__bg" src="https://media1.giphy.com/media/ZJ9OtrvAfpfAA/giphy.gif">
+            <div class="stories__title">
+              <img class="stories__user" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+              Jimmy brown
+            </div>
+          </div>
+          
+          <div class="stories__video-container stories__video-container--plain">
+            <img class="stories__bg" src="https://64.media.tumblr.com/1e377e2dac5e8894816e60c0c6be4f65/0d225a584a3139c8-bf/s540x810/bfa78148f77ce4ede679ced3223785c01231e96b.gifv">
+            <div class="stories__title">
+              <img class="stories__user" src="http://images6.fanpop.com/image/photos/37300000/Random-Girl-people-37325426-236-354.jpg">
+              Debbie Wilson
+            </div>
+          </div>
+
+          <div class="stories__video-container stories__video-container--plain">
+            <img class="stories__bg" src="https://i.pinimg.com/originals/8a/91/f3/8a91f33083080a44de28673bd0d0f465.gif">
+            <div class="stories__title">
+              <img class="stories__user" src="https://cdn.quotesgram.com/img/85/87/1731438144-BcogIEmIEAA3O5m.jpg">
+              Drake jordan
+            </div>
+          </div>
+
+          <div class="stories__video-container stories__video-container--plain">
+            <img class="stories__bg" src="https://i.gifer.com/ZcEW.gif">
+            <div class="stories__title">
+              <img class="stories__user" src="https://i.pinimg.com/474x/c5/07/41/c5074119a62b92c2b3a5ec7ed4c0317a.jpg">
+              Alexis Kim
+            </div>
+          </div>
+
+          <div class="stories__video-container stories__video-container--plain">
+            <img class="stories__bg" src="https://thumbs.gfycat.com/BeautifulDapperAfricangroundhornbill-max-1mb.gif">
+            <div class="stories__title">
+              <img class="stories__user" src="https://miro.medium.com/max/670/0*9bFo7uu3G7bl8vyf.png">
+              Tai Lopez
+            </div>
+          </div>
+          
+        </div>
+        <div class="feed__box submitpost">
+          <div class="newpost">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH-s5tJ7F4Sw5WxTPPlv3iKYV0hcfFr_kseAhvPKK5Wm89pT0SxIWzZrrLoc5ZK7boPKE&usqp=CAU" class="newpost__user-img">
+            <input type="text" placeholder="What's on your mind Joe?">
+          </div>
+          <div class="hline"></div>
+          <div class="post-types">
+            <div class="post-types__item">
+              <i class="fas fa-video"></i> <span class="post-types__title">Live Video</span>
+            </div>
+            <div class="post-types__item">
+              <i class="fas fa-photo-video"></i> <span class="post-types__title">Photo Video</span>
+            </div>
+            <div class="post-types__item">
+              <i class="fas fa-laugh-beam"></i> <span class="post-types__title">Feeling/Activity</span>
+            </div>
+          </div>
+        </div>
+        <div class="feed__box photopost">
+          <div class="photopost__info">
+            <div class="photopost__left">
+              <img src="https://i.pinimg.com/564x/25/5a/b4/255ab4200a3f46b5f7427070073825f8.jpg">
+              <div class="photopost__details">
+                <span class="photopost__name">James Dope</span>
+                <span class="photopost__date">December 17 at 3:45pm<i class="fas fa-user-friends"></i></span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+          
+          </div>
+          <div class="photopost__description">
+            Omg I jst saw SlenderMan in this forest!! Somebody help me! lol
+          </div>
+          <div class="photopost__image">
+            <img src="https://www.jeroenlagerwerf.com/wp-content/uploads/Mysticforests/Out-of-the-Blue.jpg">
+          </div>
+          <div class="photopost__stats">
+            <div class="photopost__stats-emojis">
+              <div class="emoji-circle emoji-circle--blue">
+                <i class="fas fa-thumbs-up"></i>
+              </div>
+              <div class="emoji-circle emoji-circle--red">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="emoji-circle emoji-circle--yellow">
+                <i class="fas fa-surprise"></i>
+              </div>
+              3.3k
+            </div>
+            <div class="photopost__stats-share">
+              788 Comments 73 Shares
+          </div>
+        </div>
+        <div class="hline"></div>
+        <div class="photopost__actions">
+          <a href="#" class="photopost__link">
+            <i class="fas fa-thunmbs"></i> Like
+          </a>
+          <a href="#" class="photopost__link">
+            <i class="fas fa-comment"></i> Comment
+          </a>
+          <a href="#" class="photopost__link">
+            <i class="fas fa-share"></i> Share
+          </a>
+        </div>
+        <div class="hline"></div>
+      </div>
+      </section>
+    </section>
+    <section class="floatingmsg">
+      <div class="floatingmsg__bubble">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQePAMXrnTFCj1LlCQN3GqVnFUR__zuYqAK2A&usqp=CAU">
+        <div class="floatingmsg__notification">1</div>
+      </div>
+      <div class="floatingmsg__bubble">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc-8SUIrKkfL1aAL2UPmjUYcwXaU-2igJElrMEVYvVeHTGG16NPa8kPJKqlZ1SbiMtvvo&usqp=CAU">
+      </div>
+      <div class="floatingmsg__bubble">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4cgBPVoqYA13eXrRw7JbsNmgLTGUYhAyIPNFjtNWMjQXi2ZN1J63NtXlL0UVxyofjFgM&usqp=CAU">
+        <div class="floatingmsg__notification">1</div>
+      </div>
+      <div class="floatingmsg__bubble">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxIOiVJQs1aer2XIg7f3TRO1nPz6-FvCwzLA&usqp=CAU">
+        <div class="floatingmsg__notification">1</div>
+      </div>
+      <div class="floatingmsg__bubble">
+        <img src="https://i.insider.com/622bc19c843ef30018e6bf50?width=1200&format=jpeg">
+        <div class="floatingmsg__notification">1</div>
+      </div>
+      <div class="floatingmsg__bubble">
+        <i class="fas fa-edit"></i>
+      </div>
+    </section>
+  
+  </body>
+</html>
